@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea shop</title>
     <!-- font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome link -->
-    <script src="https://kit.fontawesome.com/1580155eab.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/1580155eab.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- tailwind link -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-</head>
-<body>
-    
-</body>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", serif;
+      }
+    </style>
+  </head>
+  <body class="container mx-auto px-4 font-manrope">
+    <!-- header section -->
+    <header class="mt-16 md:flex">
+      <!-- header content -->
+      <div class="space-y-6">
+        <h1 class="text-gray-900 text-6xl font-extrabold md:text-7xl">
+          It's good <br />
+          tea time at The <br />
+          Tea House
+        </h1>
+        <p class="text-xl text-gray-500">
+          Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+          Taste Buds.
+        </p>
+        <button class="bg-gradient-to-r from-amber-500 to-red-500 text-white font-bold px-6 py-4 rounded-lg cursor-pointer ">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+      </div>
+      <!-- header image -->
+      <div>
+        <img src="./images/banner.png" alt="" />
+      </div>
+    </header>
+  </body>
 </html>
