@@ -24,9 +24,9 @@
       }
     </style>
   </head>
-  <body class="container mx-auto px-4 font-manrope">
+  <body class="font-manrope">
     <!-- header section -->
-    <header class="mt-16 md:flex">
+    <header class="mt-16 md:flex container mx-auto px-4">
       <!-- header content -->
       <div class="space-y-6">
         <h1 class="text-gray-900 text-6xl font-extrabold md:text-7xl">
@@ -68,7 +68,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="container mx-auto px-4">
       <!-- our feature section -->
       <section class="mt-32">
         <h1
@@ -184,7 +184,7 @@
         class="bg-gradient-to-r from-orange-400 to-red-600 rounded-lg p-8 md:p-10 grid grid-cols-1 lg:grid-cols-2"
       >
         <!-- review text -->
-        <div class="flex justify-center items-center overflow-hidden">
+        <div class="flex justify-center items-center overflow-hidden lg:ml-16">
           <div>
             <h1 class="text-5xl text-gray-50 font-extrabold">
               Meet Our Super Clients
@@ -268,6 +268,116 @@
           </div>
         </div>
       </section>
+      <!-- news section -->
+      <section class="my-32">
+        <!-- news text container-->
+        <div class="text-center">
+          <h1 class="text-5xl font-extrabold">News & Events</h1>
+          <p class="font-medium text-gray-500 my-5 lg:w-[901px] mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <!-- news card container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- news card-1 -->
+          <div class="border-2 rounded-lg p-5 space-y-4 lg:w-[364px] box-border">
+            <img class="w-full" src="./images/news-1.png" alt="" />
+            <h5 class="font-medium text-gray-500">Feb 05, 2027</h5>
+            <h3 class="text-xl font-extrabold">
+              Collecting 8 points for discount
+            </h3>
+            <p class="font-medium text-gray-500">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a class="font-bold" href="#"><h4 class="mt-3">Learn More</h4></a>
+          </div>
+          <!-- news card-2 -->
+          <div class="border-2 rounded-lg p-5 space-y-4 md:w-full lg:w-[364px] box-border">
+            <img class="w-full" src="./images/news-2.png" alt="" />
+            <h5 class="font-medium text-gray-500">Feb 05, 2027</h5>
+            <h3 class="text-xl font-extrabold">
+              Collecting 8 points for discount
+            </h3>
+            <p class="font-medium text-gray-500">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a class="font-bold" href="#"><h4 class="mt-3">Learn More</h4></a>
+          </div>
+          <!-- news card-3 -->
+          <div class="border-2 rounded-lg p-5 space-y-4 lg:w-[364px] box-border">
+            <img class="w-full" src="./images/news-3.png" alt="" />
+            <h5 class="font-medium text-gray-500">Feb 05, 2027</h5>
+            <h3 class="text-xl font-extrabold">
+              Collecting 8 points for discount
+            </h3>
+            <p class="font-medium text-gray-500">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <a class="font-bold" href="#"><h4 class="mt-3">Learn More</h4></a>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- footer section -->
+    <footer class="bg-gradient-to-r from-orange-400 to-red-600 p-8 md:p-10 text-white/80">
+      <!-- footer container middle -->
+      <div class="container mx-auto mt-32">
+        <!-- footer logo section -->
+        <div class="flex justify-between mb-12">
+          <div>
+            <img class="invert" src="./images/cup.png" alt="">
+          </div>
+           <div class="flex items-center gap-10">
+            <h1 class="text-xl text-white/80 font-medium">Ready to get strated?</h1>
+            <button class="bg-white text-gray-700   font-bold px-4 py-2  md:px-4 md:py-2 md:text-xl rounded-lg">Get Started</button>
+           </div>
+        </div>
+        <hr class="border-white/20">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 gap-8">
+          <div>
+            <h1 class="text-xl mb-5">Quick Links</h1>
+            <ul class="space-y-4">
+              <li><a href="#"></a>Home</li>
+              <li><a href="#"></a>About Us</li>
+              <li><a href="#"></a>Insurance</li>
+              <li><a href="#"></a>Privacy Policy</li>
+            </ul>
+          </div>
+          <div>
+            <h1 class="text-xl mb-5">Our Service</h1>
+            <ul class="space-y-4">
+              <li><a href="#"></a>Life Insurance</li>
+              <li><a href="#"></a>Car Insurance</li>
+              <li><a href="#"></a>Health Insurance</li>
+              <li><a href="#"></a>House Insurance</li>
+            </ul>
+          </div>
+          <div>
+            <h1 class="text-xl mb-5">Help</h1>
+            <ul class="space-y-4">
+              <li><a href="#"></a>FAQs</li>
+              <li><a href="#"></a>Contact Us</li>
+            </ul>
+          </div>
+          <div>
+            <h1 class="text-2xl mb-8">Subscribe to our newsletter</h1>
+              <input class="border-b-2 border-gray-800/50 bg-transparent pb-4 placeholder-gray-50/60 focus:outline-none " type="email" name="" id="" placeholder="Email address">
+              <i class="fa-solid fa-angle-right bg-orange-500 rounded-full p-1 w-9 text-xl text-center cursor-pointer"></i>
+            <div class="space-x-4 my-6">
+              <i class="fa-brands fa-facebook md:text-2xl"></i>
+              <i class="fa-brands fa-twitter md:text-2xl"></i>
+              <i class="fa-brands fa-instagram md:text-2xl"></i>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-gray-50/50">
+          <h1>© 2027 UIDesign.to - All rights reserved.</h1>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
